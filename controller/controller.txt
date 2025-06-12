@@ -105,3 +105,50 @@ if(numapos6 == numsort1 || numapos6 == numsort2 || numapos6 == numsort3 || numap
     console.log(dezena6);
 }
 
+if(dezena1 == 0 && dezena2 == 0 && dezena3 == 0 && dezena4 == 0 && dezena5 == 0 && dezena6 == 0){
+    console.log("GANHEI HAHAHAHAHAAHAHAHAHAAH");
+}else if(dezena1 != 0 && dezena2 == 0 && dezena3 == 0 && dezena4 == 0 && dezena5 == 0 && dezena6 == 0){
+    console.log("GANHEI NA QUINA HHAAHHSHDAHDAHSDAHSDAHDHSDA");
+}else if(dezena1 == 0 && dezena2 != 0 && dezena3 == 0 && dezena4 == 0 && dezena5 == 0 && dezena6 == 0){
+    console.log("GANHEI NA QUINA HHAAHHSHDAHDAHSDAHSDAHDHSDA");
+}else if(dezena1 == 0 && dezena2 == 0 && dezena3 != 0 && dezena4 == 0 && dezena5 == 0 && dezena6 == 0){
+    console.log("GANHEI NA QUINA HHAAHHSHDAHDAHSDAHSDAHDHSDA");
+}else if(dezena1 == 0 && dezena2 == 0 && dezena3 == 0 && dezena4 != 0 && dezena5 == 0 && dezena6 == 0){
+    console.log("GANHEI NA QUINA HHAAHHSHDAHDAHSDAHSDAHDHSDA");
+}else if(dezena1 == 0 && dezena2 == 0 && dezena3 == 0 && dezena4 == 0 && dezena5 != 0 && dezena6 == 0){
+    console.log("GANHEI NA QUINA HHAAHHSHDAHDAHSDAHSDAHDHSDA");
+}else if(dezena1 == 0 && dezena2 == 0 && dezena3 == 0 && dezena4 == 0 && dezena5 == 0 && dezena6 != 0){
+    console.log("GANHEI NA QUINA HHAAHHSHDAHDAHSDAHSDAHDHSDA");
+}else if(dezena1 != 0 && dezena2 == 0 && dezena3 == 0 && dezena4 == 0 && dezena5 != 0 && dezena6 == 0){
+    console.log("GANHEI NA QUADRA HHAAHHSHDAHDAHSDAHSDAHDHSDA");
+}else if(dezena1 == 0 && dezena2 == 0 && dezena3 != 0 && dezena4 == 0 && dezena5 != 0 && dezena6 == 0){
+    console.log("GANHEI NA QUADRA HHAAHHSHDAHDAHSDAHSDAHDHSDA");
+}else if(dezena1 != 0 && dezena2 != 0 && dezena3 == 0 && dezena4 == 0 && dezena5 == 0 && dezena6 == 0){
+    console.log("GANHEI NA QUADRA HHAAHHSHDAHDAHSDAHSDAHDHSDA");
+}else if(dezena1 != 0 && dezena2 == 0 && dezena3 == 0 && dezena4 == 0 && dezena5 == 0 && dezena6 != 0){
+    console.log("GANHEI NA QUADRA HHAAHHSHDAHDAHSDAHSDAHDHSDA");
+}else if(dezena1 != 0 && dezena2 == 0 && dezena3 != 0 && dezena4 == 0 && dezena5 == 0 && dezena6 == 0){
+    console.log("GANHEI NA QUADRA HHAAHHSHDAHDAHSDAHSDAHDHSDA");
+}else if(dezena1 == 0 && dezena2 == 0 && dezena3 == 0 && dezena4 == 0 && dezena5 != 0 && dezena6 != 0){
+    console.log("GANHEI NA QUADRA HHAAHHSHDAHDAHSDAHSDAHDHSDA");
+}else if(dezena1 == 0 && dezena2 != 0 && dezena3 == 0 && dezena4 != 0 && dezena5 == 0 && dezena6 == 0){
+    console.log("GANHEI NA QUADRA HHAAHHSHDAHDAHSDAHSDAHDHSDA");
+}else if(dezena1 == 0 && dezena2 == 0 && dezena3 != 0 && dezena4 == 0 && dezena5 != 0 && dezena6 == 0){
+    console.log("GANHEI NA QUADRA HHAAHHSHDAHDAHSDAHSDAHDHSDA");
+}else if(dezena1 == 0 && dezena2 == 0 && dezena3 != 0 && dezena4 == 0 && dezena5 == 0 && dezena6 != 0){
+    console.log("GANHEI NA QUADRA HHAAHHSHDAHDAHSDAHSDAHDHSDA");
+}else if(dezena1 != 0 && dezena2 == 0 && dezena3 == 0 && dezena4 != 0 && dezena5 == 0 && dezena6 == 0){
+    console.log("GANHEI NA QUADRA HHAAHHSHDAHDAHSDAHSDAHDHSDA");
+}else if(dezena1 == 0 && dezena2 != 0 && dezena3 == 0 && dezena4 == 0 && dezena5 == 0 && dezena6 != 0){
+    console.log("GANHEI NA QUADRA HHAAHHSHDAHDAHSDAHSDAHDHSDA");
+}else if(dezena1 == 0 && dezena2 == 0 && dezena3 != 0 && dezena4 != 0 && dezena5 == 0 && dezena6 == 0){
+    console.log("GANHEI NA QUADRA HHAAHHSHDAHDAHSDAHSDAHDHSDA");
+}else if(dezena1 == 0 && dezena2 == 0 && dezena3 != 0 && dezena4 == 0 && dezena5 != 0 && dezena6 == 0){
+    console.log("GANHEI NA QUADRA HHAAHHSHDAHDAHSDAHSDAHDHSDA");
+}else if(dezena1 == 0 && dezena2 != 0 && dezena3 != 0 && dezena4 == 0 && dezena5 == 0 && dezena6 == 0){
+    console.log("GANHEI NA QUADRA HHAAHHSHDAHDAHSDAHSDAHDHSDA");
+}else if(dezena1 != 0 && dezena2 == 0 && dezena3 == 0 && dezena4 != 0 && dezena5 == 0 && dezena6 == 0){
+    console.log("GANHEI NA QUADRA HHAAHHSHDAHDAHSDAHSDAHDHSDA");
+}else{
+    console.log("ME DINHEIRO SEUS RATOS")
+}
