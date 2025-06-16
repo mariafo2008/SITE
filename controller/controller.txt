@@ -152,3 +152,59 @@ if(dezena1 == 0 && dezena2 == 0 && dezena3 == 0 && dezena4 == 0 && dezena5 == 0 
 }else{
     console.log("ME DINHEIRO SEUS RATOS")
 }
+
+//3- faça um código que diga se precisa colocar mais sal na comida, ou se o sal está bom, ou se a comida ficou muito salgada.
+
+let sal = "ms";
+
+if(sal == "fs"){
+    console.log("Precisa colocar mais sal");
+}else if(sal == "tbs"){
+    console.log("Ta baum de sal");
+}else if(sal == "ms"){
+    console.log("Muito salgado")
+}
+
+//4- faça um código que instrua o usuario a fazer um bolo.
+let açucar = "n";
+let ovo = "n";
+let chocolate = "n";
+let fermento = "n";
+let trigo = "n";
+let oleo = "n";
+let margarina = "n";
+let leite = "n";
+let nescau = "n";
+let leiteCondensado = "n";
+
+if(margarina == "n"){
+    console.log("Precisa derreter a margarina e colocar na bacia")
+}else if(margarina == "s"){
+    if(açucar == "n"){
+        console.log("adicione 2 xícaras de açucar");
+     }else if(açucar == "s"){
+      if(ovo == "n"){
+        console.log("adicione 4 ovos");}
+      }else if(ovo == "s"){
+          console.log("misture tudo e faça um caldo");
+      }if(leite == "n"){
+          console.log("adicione 1 xícara de leite");
+      }else if(leite == "s"){
+          if(oleo == "n"){
+              console.log("ferva o oleo e adicione a mistura");
+          }else if(oleo == "s"){
+              if(trigo == "n"){
+                  console.log("adicione 3 pratos de tigro para 3 tigre tristes");
+              }else if(trigo == "s"){
+                  if(nescau == "n"){
+                      console.log("adicione 4 xícaras de nescau");
+                  }else if(nescau == "s"){
+                      if(fermento == "n"){
+                          console.log("adicione")
+                      }
+                  }
+              }
+          }
+      }
+     
+}
