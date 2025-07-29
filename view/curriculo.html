@@ -8,31 +8,31 @@
     <form action="curriculo.php" method="POST">
         <h1>Curriculo</h1>
       <h2>Dados Pessoais</h2>
-        <p>Nome:<input type="text" value="" required></p></br>
-        <p>Telefone:<input type="text" value="" required></p></br>
-        <p>Email:<input type="email" value="" required></p></br>
-        <p>Endereço:<input type="text" value="" required></p></br>
+        <p>Nome:<input type="text" name="nome" required></p></br>
+        <p>Telefone:<input type="text" name="telefone" required></p></br>
+        <p>Email:<input type="email" name="email" required></p></br>
+        <p>Endereço:<input type="text" name="endereco" required></p></br>
       <hr>
       <h3>Escolaridade</h3>
-        Ensino Fundamental completo:<input type="checkbox"></br>
-        Ensino Médio completo:<input type="checkbox"></br>
-        Ensino Superior completo:<input type="checkbox"></br>
-        Pos-Graduação completo:<input type="checkbox"></br>
-        Mestrado completo:<input type="checkbox"></br>
+        Ensino Fundamental completo:<input type="checkbox" name="efc"></br>
+        Ensino Médio completo:<input type="checkbox" name="emc"></br>
+        Ensino Superior completo:<input type="checkbox" name="esc"></br>
+        Pos-Graduação completo:<input type="checkbox" name="pgc"></br>
+        Mestrado completo:<input type="checkbox" name="mc"></br>
       <hr>
       <h4>Experiencia Profissional</h4>
-        <p>Empresa:<input type="text" value="" required></p></br>
-        <p>Data de admissão:<input type="date" value="" required></p></br>
-        <p>Data de demissão:<input type="date" value="" required></p></br>
-        <p>Atividade exercida:<input type="text" value="" required></p></br>
+        <p>Empresa:<input type="text" name="empresa" required></p></br>
+        <p>Data de admissão:<input type="date" name="data_admissao" required></p></br>
+        <p>Data de demissão:<input type="date" name="data_demissao" required></p></br>
+        <p>Atividade exercida:<input type="text" name="atividade_exercida" required></p></br>
       <hr>
       <h5>Cursos e Idiomas</h5>
-        <p>Descrição:<input type="text" value="" required></p></br>
-        <p>Horas:<input type="text" value="" required></p></br>
-        <p>Ano de conclusão:<input type="date" value="" required></p></br>
+        <p>Descrição:<input type="text" name="descricao" required></p></br>
+        <p>Horas:<input type="text" name="horas" required></p></br>
+        <p>Ano de conclusão:<input type="date" name="ano_conclusao" required></p></br>
       <hr>
       <h6>Informações Adicionais</h6>
-      <p>Informações:<input type="text" value="" required></p></br>
+      <p>Informações:<input type="text" name="informacoes" required></p></br>
       <input type="submit" value="cadastrar">
     </form>
   </body>
